@@ -1,13 +1,16 @@
 package com.example.didemo.controllers;
 
 import com.example.didemo.services.GreetingServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 
-// Example of everything NOT to do
+@Controller
 public class PropertyInjectedController {
 
+    @Autowired
     public GreetingServiceImpl greetingService;
 
-    String sayHello(){
+    public String sayHello(){
         return greetingService.sayGreeting();
     }
 }
