@@ -1,0 +1,6 @@
+# Spring looks for an application.yml file
+guru:
+  jms:
+    username: JMS Username
+    password: klfdskld1222
+    dburl: some url
