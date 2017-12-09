@@ -6,7 +6,8 @@ import org.springframework.stereotype.Service;
 
 //@Primary means that if there is more than one Bean that qualifies, it will use this one.
 @Service
-@Profile("en")
+// The default-Profile is only active, when other profiles are not active!
+@Profile({"en", "default"})
 @Primary
 public class PrimaryGreetingService implements GreetingService {
     @Override
