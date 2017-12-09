@@ -1,0 +1,35 @@
+# YAML example
+# this is a comment
+
+name: Joe
+names: #inline comment
+  - Joe
+  - Paul
+  - Ringo
+
+pound_sign: "#"
+
+book:
+  author: Joe Buck
+  publisher: random house
+
+# Boolean:
+truth: yes
+another_truth: True
+more_true: true
+false: no #No, false, FALSE
+
+string_val: "This is it's quote"
+
+colon_string: "my courses: one two three"
+
+# | says to read in everything
+include_new_lines: |
+  dsklfsjkd lkdsfkslj kdfkls
+  fjksdlioioewoio ooooo
+  sdfkjsldi  kljfsisd
+
+ignore_new_line: >
+  this is
+  just one long
+  string
