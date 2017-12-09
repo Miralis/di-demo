@@ -4,3 +4,12 @@ guru:
     username: JMS Username
     password: klfdskld1222
     dburl: some url
+
+
+--- # File Seperator
+spring:
+  profiles: de
+
+guru:
+  jms:
+    username: JMS Username $$$$$ German
